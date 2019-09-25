@@ -1,0 +1,178 @@
+@charset "utf-8";
+
+body{
+		background-color: #F8DE75;	
+}
+
+	#layout {
+		width: 80%;
+		margin: 0px auto 0px auto;
+		max-width: 900px;
+		color: #FFFFFF;
+		}
+
+	p{
+		width: 52%;
+		line-height: 20px;
+
+}
+
+	h1{
+		font-size: 90px;
+		line-height: 85px;
+		margin: 20% 2% 0% 0%;
+		}
+
+	h2{
+		font-size: 90px;
+		line-height: 80px;
+		width: 12.667%;
+		margin: 0px 0% 0px 0%;
+	    float: left;
+		padding-right: 40px;
+		}
+
+	h3{
+		font-size: 20px;
+		line-height: 20px;
+		width: 46;
+		margin: 0% 2% 2% 2%;
+		}
+
+	.one{
+		width: 62.666%;	
+		margin: 0% 0% 0% 67%;
+		padding: 20px;
+		}
+
+	.two{
+		width: 62.666%;	
+		margin: 0% 2% 0% 34%;
+		padding: 20px;
+		}
+	.three{
+		width: 62.666%;	
+		margin: 0% 2% 0% 2%;
+		padding: 20px;
+		}
+
+	.four{
+		width: 62.666%;	
+		margin: 0% 2% 0% 34%;
+		padding: 20px;
+		}
+
+	.five{
+		width: 62.666%;	
+		margin: 0% 2% 0% 67%;
+		padding: 20px;
+	}
+
+	.six{
+		width: 62.666%;	
+		margin: 0% 2% 0% 34%;
+		padding: 20px;
+	}
+	.seven{
+		width: 62.666%;	
+		margin: 0% 2% 0% 2%;
+		padding: 20px;
+		}
+
+	.eight{
+		width: 62.666%;	
+		margin: 0% 2% 0% 34%;
+		padding: 20px;
+	}
+
+	.nine{
+		width: 62.666%;	
+		margin: 0% 2% 0% 67%;
+		padding: 20px;
+		}
+
+	.ten{
+		width: 62.666%;	
+		margin: 0% 2% 0% 34%;
+		padding: 20px;
+			}
+
+@media (max-width: 800px) {
+	
+		#layout {
+			width: 90%;
+			margin: 20% 0% 0% 0%;
+			max-width: 768px;
+			}
+
+		.p1{
+			margin: 0% 0% 0% 3%;
+			line-height: 20px;
+		}				
+
+		h1{
+			font-size: 90px;
+			line-height: 85px;
+			margin: 20% 0% 0% 2%;
+		}
+	
+		.one{
+			width: 90%;	
+			margin: 0% 0% 0% 50%;
+			padding: 20px;
+			}
+
+		.two{
+			width: 90%;
+			margin: 0% 0% 0% 1%;
+			padding: 20px;
+			}
+	
+		.three{
+			width: 90%;	
+			margin: 0% 0% 0% 50%;
+			padding: 20px;
+			}
+
+		.four{
+			width: 90%;	
+			margin: 0% 2% 0% 1%;
+			padding: 20px;
+			}
+
+		.five{
+			width: 90%;	
+			margin: 0% 0% 0% 50%;
+			padding: 20px;
+		}
+
+		.six{
+			width: 90%;	
+			margin: 0% 2% 0% 1%;
+			padding: 20px;
+			}
+	
+		.seven{
+			width: 90%;	
+			margin: 0% 0% 0% 50%;
+			padding: 20px;
+			}
+
+		.eight{
+			width: 90%;	
+			margin: 0% 2% 0% 1%;
+			padding: 20px;
+			}
+
+		.nine{
+			width: 90%;	
+			margin: 0% 0% 0% 50%;
+			padding: 20px;
+			}
+
+		.ten{
+			width: 90%;	
+			margin: 0% 2% 0% 1%;
+			padding: 20px;
+			}
+
