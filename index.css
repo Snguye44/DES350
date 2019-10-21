@@ -2,7 +2,7 @@
 
 body{
 	
-	background: #FBE781;
+	background: #F3E994;
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
 
@@ -13,32 +13,45 @@ body{
 		}
 
 	#projects{
-		width: 62.666%;	
+		width: 30%;	
 		margin: 0% 0% 0% 67%;
-		padding: 20px;
+		padding: 40px;
+		border-bottom: 
 		}
+
+	#aboutme{
+		width: 60%;	
+		margin: 0% 0% 0% 0%;
+		padding: 40px;
+		}
+
 
 	h1{
 		color: #15174A;
 		font-size: 50px;
-		line-height: 50px;
+		line-height: 58px;
 		margin: 20% 2% 0% 0%;
 		}
 
 	h2{
 		color: #15174a;
 		font-size: 25px;
-		line-height: 25px;
+		line-height: 35px;
 		margin: 2% 0% 0% 0%;
 		}
 
 	h3{
-		color: #15174A;
+		color: #394FA2;
 		font-size: 20px;
 		line-height: 40px;
-		margin: 2% 0% 2% 5%;
+		margin: 2% 0% 2% 0%;
 		}
+.a {
+	color: #15174a;
+	font-size: 25px;
+	line-height: 35px;
 
+}
 a:hover {
 color: #FFF7EA;
 transition-duration: .7s;	
