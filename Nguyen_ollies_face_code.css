@@ -60,6 +60,37 @@ body{
 			top: 595px;
 			left: 435px;
 		    border-radius:30px 30px 100px 100px ;
+		
+				animation-name: snoots;
+				animation-duration: 4s;
+				animation-delay: 2s;
+				animation-iteration-count: infinite;
+}
+ 
+				@-webkit-keyframes snoots {
+					
+				0%   {
+					top: 595px;
+					left: 435px;
+					position:absolute}
+
+				25%  {
+					top: 595px;
+					left: 436px;
+					position:absolute
+					}
+
+				50%  {
+					top: 595px;
+					left: 434px;
+					position:absolute}
+
+				75% {
+					top: 595px;
+					left: 435px;
+					position: absolute;
+				}	
+		
 	}	
 
 	.eyeLeft{
@@ -130,8 +161,37 @@ body{
 			left: 320px;
 		    border-radius: 250px 90px 80px 250px ;
 			transform: translateX(5px) rotateY(-180deg) rotate(15deg);
-	}
+		
+						animation-name: leftear;
+						animation-duration: 4s;
+						animation-delay: 2s;
+						animation-iteration-count: infinite;
+		}
+						@-webkit-keyframes leftear {
 
+						0%   {
+							top: 370px;
+							left: 320px;
+							position:absolute}
+						25%  {
+							top: 370px;
+							left: 320px;
+							position:absolute
+							}
+						50%  {
+							top: 370px;
+							left: 320px;
+							position:absolute}
+						75% {
+							top: 368px;
+							left: 318px; 
+							position: absolute;
+						}
+						100% {
+							top: 370px;
+							left: 320px;
+							position:absolute}
+					}
 
 	.rightear{
 		background: #AB8774;
@@ -142,7 +202,37 @@ body{
 			left: 700px;
 		    border-radius:80px 30px 100px 200px ;
 			transform: translateX(5px) rotateY(-180deg) rotate(10deg);
-	}
+		
+						animation-name: rightear;
+						animation-duration: 4s;
+						animation-delay: 2s;
+						animation-iteration-count: infinite;
+		}
+						@-webkit-keyframes rightear {
+
+						0%   {
+							top: 370px;
+							left: 700px;
+							position:absolute}
+						25%  {
+							top: 370px;
+							left: 700px;
+							position:absolute
+							}
+						50%  {
+							top: 370px;
+							left: 700px;
+							position:absolute}
+						75% {
+							top: 368px;
+							left: 704px;  
+							position: absolute;
+						}
+						100% {
+							top: 370px;
+							left: 700px;
+							position:absolute}
+					}
 
 	.eyeLeftHighlight{ 
 		background: #FFFFFF;
@@ -408,24 +498,65 @@ body{
 					
 				0%   {
 					top: 510px;
-					left: 630px;}
+					left: 630px;
+					position:absolute}
 
 				25%  {
 					top: 520px;
 					left: 630px;
+					position:absolute
 					}
 
 				50%  {
 					top: 515px;
-					left: 630px;}
+					left: 630px;
+					position:absolute}
 
 				75% {
 					top: 530px;
 					left: 630px;  
-					transform: rotateX(-25deg) rotateY(0);
+					position: absolute;
 				}
 
 				100% {
 					top: 510px;
-					left: 630px;}
+					left: 630px;
+					position:absolute}
 			}
+
+.earfur{
+				animation-name: earfur;
+				animation-duration: 4s;
+				animation-delay: 2s;
+				animation-iteration-count: infinite;
+}
+ 
+				@-webkit-keyframes earfur {
+					
+				0%   {
+					top: 0px;
+					left: 0px;
+					position:absolute}
+
+				25%  {
+					top: 2px;
+					left: 0px;
+					position:absolute
+					}
+
+				50%  {
+					top: 0px;
+					left: 0px;
+					position:absolute}
+
+				75% {
+					top: 0px;
+					left: 0px; 
+					position: absolute;
+				}
+
+				100% {
+					top: 0px;
+					left: 0px;
+					position:absolute}
+}
