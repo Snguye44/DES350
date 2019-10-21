@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+body{
+	
+	background: #FBE781;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+	#layout {
+		width: 100%;
+		margin: 0px auto 5% 22%;
+		max-width: 1000px;
+		}
+
+	#projects{
+		width: 62.666%;	
+		margin: 0% 0% 0% 67%;
+		padding: 20px;
+		}
+
+	h1{
+		color: #15174A;
+		font-size: 50px;
+		line-height: 50px;
+		margin: 20% 2% 0% 0%;
+		}
+
+	h2{
+		color: #15174a;
+		font-size: 25px;
+		line-height: 25px;
+		margin: 2% 0% 0% 0%;
+		}
+
+	h3{
+		color: #15174A;
+		font-size: 20px;
+		line-height: 40px;
+		margin: 2% 0% 2% 5%;
+		}
+
+a:hover {
+color: #FFF7EA;
+transition-duration: .7s;	
+background-color: transparent;
+text-decoration: none;	
+	}	
+	
+a:link {
+text-decoration: none;
+	}	

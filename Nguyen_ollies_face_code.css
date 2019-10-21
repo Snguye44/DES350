@@ -356,8 +356,38 @@ body{
 				left: 402px;
 				border-radius: 	60px 95px 45px 60px ;
 				transform: translateX(0px) rotateY(-180deg) rotate(20deg);
+			
+				animation-name: leftbrow;
+				animation-duration: 4s;
+				animation-delay: 2s;
+				animation-iteration-count: infinite;
+}
+ 
+				@-webkit-keyframes leftbrow {
+					
+				0%   {
+					top: 510px;
+					left: 402px;}
+
+				25%  {
+					top: 520px;
+					left: 402px;
+					}
+
+				50%  {
+					top: 515px;
+					left: 402px;}
+
+				75% {
+					top: 530px;
+					left: 402px;  
 				}
 
+				100% {
+					top: 510px;
+					left: 402px;}
+			}
+			
 		.righteyebrow{
 				background: #EFE1D9;
 				position: absolute;
@@ -367,28 +397,35 @@ body{
 				left: 630px;
 				border-radius: 95px 60px 60px 45px ;
 				transform: translateX(0px) rotateY(180deg) rotate(-25deg);
-				}
-.animation1{
-	animation-name: background;
-	animation-duration: .7s;
-	animation-delay: 0s;
-	animation-iteration-count: infinite;
-	animation-timing-function: ease;
+
+				animation-name: rightbrow;
+				animation-duration: 4s;
+				animation-delay: 2s;
+				animation-iteration-count: infinite;
 }
+ 
+				@-webkit-keyframes rightbrow {
+					
+				0%   {
+					top: 510px;
+					left: 630px;}
 
-@keyframes righteyebrow{
-	
-	0%{transform:translate(0)
-		
-	}
-	
-	0%{transform:translate(0)
+				25%  {
+					top: 520px;
+					left: 630px;
+					}
 
-	}
-	
-	}	
+				50%  {
+					top: 515px;
+					left: 630px;}
 
+				75% {
+					top: 530px;
+					left: 630px;  
+					transform: rotateX(-25deg) rotateY(0);
+				}
 
-
-
-	
+				100% {
+					top: 510px;
+					left: 630px;}
+			}
