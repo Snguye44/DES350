@@ -61,3 +61,8 @@ text-decoration: none;
 a:link {
 text-decoration: none;
 	}	
+
+a:visited {
+color: #990066;
+text-decoration: none;
+background-color: #FFFFFF;
