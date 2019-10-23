@@ -2,21 +2,20 @@
 
 body{
 	
-	background: #F3E994;
+	background: #222222;
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
 
 	#layout {
-		width: 100%;
-		margin: 0px auto 5% 22%;
-		max-width: 1000px;
-		}
+		width: 80%;
+		margin: 0px auto 0px auto;
+		max-width: 900px;
+	}	
 
 	#projects{
-		width: 30%;	
+		width: 50%;	
 		margin: 0% 0% 0% 67%;
-		padding: 40px;
-		border-bottom: 
+		padding: 20px;
 		}
 
 	#aboutme{
@@ -27,29 +26,29 @@ body{
 
 
 	h1{
-		color: #15174A;
+		color: #FFFE5F;
 		font-size: 50px;
 		line-height: 58px;
 		margin: 20% 2% 0% 0%;
 		}
 
 	h2{
-		color: #15174a;
+		color: #FFFE5F;
 		font-size: 25px;
 		line-height: 35px;
 		margin: 2% 0% 0% 0%;
 		}
 
 	h3{
-		color: #394FA2;
+		color: #FFFE60;
 		font-size: 20px;
 		line-height: 40px;
 		margin: 2% 0% 2% 0%;
 		}
 .a {
 	color: #15174a;
-	font-size: 25px;
-	line-height: 35px;
+	font-size: 20px;
+	line-height: 20px;
 
 }
 a:hover {
