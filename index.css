@@ -2,67 +2,96 @@
 
 body{
 	
-	background: #222222;
+	background: #FFFE5F;
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
 
 	#layout {
-		width: 80%;
-		margin: 0px auto 0px auto;
-		max-width: 900px;
+		width: 100%;
+		margin: 5% auto 0px auto;
+		max-width: 95%;
 	}	
+	#allprojects{
+		width: 100%;
+		margin: 300px
+			5% 0px auto;
+		max-width: 95%;
+		float: right;
+	}
+	
+	#project1{
+		width:15%;
+		margin: 0% 0% 0% 0%;
+		float: right;
+	}
+ 
+	#project2{
+		width: 15%;
+		margin: 0% 0% 0% %;
+		float: right;	
+	}
+ 	#project3{
+		width: 15%;
+		margin: 0% 0% 0% %;
+		float: right;	
+	}
 
-	#projects{
-		width: 50%;	
-		margin: 0% 0% 0% 67%;
-		padding: 20px;
-		}
-
+ 	#project4{
+		width: 15%;
+		margin: 0% 0% 0% %;
+		float: right;
+	}
+ 	#project5{
+		width: 15%;
+		margin: 5% 0% 0% 0% %;
+		float: right;	
+}
+ 
 	#aboutme{
 		width: 60%;	
-		margin: 0% 0% 0% 0%;
-		padding: 40px;
+		margin: 5% 0% 0% 0%;
 		}
 
 
 	h1{
-		color: #FFFE5F;
+		color: #741515;
 		font-size: 50px;
 		line-height: 58px;
-		margin: 20% 2% 0% 0%;
+		margin: auto;
 		}
 
 	h2{
-		color: #FFFE5F;
+		color: #660A0C;
 		font-size: 25px;
-		line-height: 35px;
-		margin: 2% 0% 0% 0%;
+		line-height: 30px;
+		margin: auto0%;
 		}
 
 	h3{
-		color: #FFFE60;
+		color: #833E3F;
 		font-size: 20px;
 		line-height: 40px;
-		margin: 2% 0% 2% 0%;
+		margin: 0% 0% 2% 0%;
 		}
 .a {
-	color: #15174a;
+	color: #FF3F00;
 	font-size: 20px;
 	line-height: 20px;
 
 }
 a:hover {
-color: #FFF7EA;
+color: #ECFDD2;
 transition-duration: .7s;	
 background-color: transparent;
 text-decoration: none;	
 	}	
 	
 a:link {
+color: #833E3F;
 text-decoration: none;
 	}	
 
 a:visited {
-color: #990066;
+color: #833E3F;
 text-decoration: none;
 background-color: #FFFFFF;
