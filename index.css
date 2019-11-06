@@ -13,42 +13,43 @@ body{
 	}	
 	#allprojects{
 		width: 100%;
-		margin: 300px 5% 0px auto;
+		margin: 300px
+			5% 0px auto;
 		max-width: 95%;
 		float: right;
 	}
 	
 	#project1{
-		width:05%;
+		width:15%;
 		margin: 0% 0% 0% 0%;
 		float: right;
 	}
  
 	#project2{
 		width: 15%;
-		margin: 0% 0% 50px 0%;
+		margin: 0% 0% 0% %;
 		float: right;	
 	}
  	#project3{
 		width: 15%;
-		margin: 0% 2% 0% 0%;
+		margin: 0% 0% 0% %;
 		float: right;	
 	}
 
  	#project4{
 		width: 15%;
-		margin: 0% 0% 0% 0%;
+		margin: 0% 0% 0% %;
 		float: right;
 	}
  	#project5{
 		width: 15%;
-		margin: 5% 0% 0% 0%;
+		margin: 5% 0% 0% 0% %;
 		float: right;	
 }
  
 	#aboutme{
 		width: 60%;	
-		margin: 05% 0% 0% 0%;
+		margin: 10% 0% 0% 0%;
 		}
 
 
