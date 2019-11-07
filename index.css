@@ -27,23 +27,24 @@ body{
  
 	#project2{
 		width: 15%;
-		margin: 0% 0% 0% %;
+		margin: 0% 0% 0% 0%;
 		float: right;	
 	}
+
  	#project3{
 		width: 15%;
-		margin: 0% 0% 0% %;
+		margin: 0% 0% 0% 0%;
 		float: right;	
 	}
 
  	#project4{
 		width: 15%;
-		margin: 0% 0% 0% %;
+		margin: 0% 0% 0% 0%;
 		float: right;
 	}
  	#project5{
 		width: 15%;
-		margin: 5% 0% 0% 0% %;
+		margin: 0% 0% 0% 0%;
 		float: right;	
 }
  
@@ -95,3 +96,4 @@ a:visited {
 color: #833E3F;
 text-decoration: none;
 background-color: #FFFFFF;
+}
