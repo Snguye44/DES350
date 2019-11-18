@@ -13,8 +13,7 @@ body{
 	}	
 	#allprojects{
 		width: 100%;
-		margin: 300px
-			5% 0px auto;
+		margin: 400px 5% 0px auto;
 		max-width: 95%;
 		float: right;
 	}
@@ -50,7 +49,7 @@ body{
  
 	#aboutme{
 		width: 60%;	
-		margin: 10% 0% 0% 0%;
+		margin: 60% 0% 0% 0%;
 		}
 
 
