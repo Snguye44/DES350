@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="Parks_website_coding2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	
+	
+	
+<div id="images">
+	
+	<div class="background rellax" 
+	 data-rellax-speed="0">
+	<img src="parts for DW/svg/blue bg.svg" width="100%" alt=""/>
+	</div>
+
+	<div class="title rellax" 
+		 data-rellax-speed="3">
+		<img src="parts for DW/svg/title.svg" width="100%" alt=""/>
+	</div>
+	
+	<div class="part1 rellax" 
+		 data-rellax-speed="1">
+		<img src="parts for DW/svg/part 1.svg" width="100%" alt=""/>
+	</div>
+
+	<div class="part2 rellax"
+		  data-rellax-speed="6">
+		<img src="parts for DW/svg/part 2.svg" width="100%" alt=""/>
+	</div>
+	
+	<div class="part3 rellax" 
+		 data-rellax-speed="5">
+		<img src="parts for DW/svg/part 3.svg" width="100%" alt=""/>
+	</div>
+	
+	<div class="part4 rellax" 
+		 data-rellax-speed="0">
+		<img src="parts for DW/svg/part 4.svg" width="100%" alt=""/>
+	</div>	
+	
+	</div>
+	
+    <!-- Credit to Dixon & Moe -->
+    <script type="text/javascript" src="rellax.js"></script>
+    <script>
+    	var rellax = new Rellax('.rellax', {
+        // center: true
+        callback: function(position) {
+            // callback every position change
+            console.log(position);
+        }
+      });
+    </script>
+
+  </body>
+</html>

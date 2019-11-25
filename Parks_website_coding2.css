@@ -1,0 +1,64 @@
+
+.background{
+  position: fixed;
+  display: inline-block;
+  width: 100%;
+}
+
+.title{
+  position: fixed;
+  display: inline-block;
+  width: 100%;
+}
+
+.part1{
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+}
+
+.part2{
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+}
+
+.part3{
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+
+}
+
+.part4{
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+
+}
+
+
+/*----------------------------------
+  Medium devices: iPad vertical
+------------------------------------*/
+
+@media (max-width: 991px) {
+
+}
+
+
+/*----------------------------------
+  Small devices: iPhone 6+ and below
+------------------------------------*/
+
+@media (max-width: 767px) {
+
+}
+
+/*----------------------------------
+  iPhone 6 & 6+ specific text bump
+------------------------------------*/
+
+@media (max-width: 991px) and (max-height: 736px) and (min-height: 481px) {
+
+}
