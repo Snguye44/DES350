@@ -19,9 +19,9 @@
 		position: absolute;
 		z-index: -1;
 		display: inline-block;
-		width: 29.333%;	
+		width: 50%;	
 		border-radius: 10%;
-		margin: 80% 6% 0% 50%;
+		margin: 90% 6% 0% 22%;
 		padding: 60px;
 		}
 
@@ -34,7 +34,7 @@
 }
 
 .biking{
-	background: #FFF9E4;
+	background: 
 }
 	
 
@@ -73,14 +73,6 @@
   display: inline-block;
   width: 100%;
   z-index: -2;
-
-}
-
-.part4{
-  position: absolute;
-  display: inline-block;
-  width: 100%;
-	z-index: -2;
 }
 
 /*other websites*/
@@ -89,9 +81,9 @@
 	display:inline-block;
 	float: left;
 	width: 20%;
-	margin-top: 160%;	
+	margin-top: 30%;	
 	overflow: hidden;
-	margin-left: 18%;	
+	margin-left: 8%;	
 	padding-right: 2%;	
 	}
 	
@@ -99,14 +91,14 @@
 	display: inline-block;
 	float: left;
 	width: 20%;
-	margin-top: 160%;	
+	margin-top: 30%;	
 	padding-right: 2%;	
 	}
 	.rightcolumn {
 	display: inline-block;
 	float: left;
 	width: 20%;
-	margin-top: 160%;	
+	margin-top: 30%;	
 	padding-right: 2%;	
 	}	
 
