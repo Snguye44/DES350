@@ -1,32 +1,78 @@
+	h2{
+		font-size: 90px;
+		line-height: 80px;
+		width: 12.667%;
+		margin: 0px 0% 0px 0%;
+	    float: left;
+		padding-right: 20px;
+		}
+
+	h3{
+		font-size: 20px;
+		line-height: 20px;
+		width: 46;
+		margin: 0% 2% 2% 2%;
+		}
+
+	.about{
+		background: #FFFDE8;
+		position: absolute;
+		z-index: -1;
+		display: inline-block;
+		width: 29.333%;	
+		border-radius: 10%;
+		margin: 80% 6% 0% 50%;
+		padding: 60px;
+		}
+
+	#activity{
+		position: absolute;
+		z-index: -1;
+		width: 100% !important;
+		padding: 10%;
+		margin-top: 120%;
+}
+
+.biking{
+	background: #FFF9E4;
+}
+	
+
+/*Images*/
 
 .background{
   position: fixed;
   display: inline-block;
   width: 100%;
+  z-index: -4;
 }
 
 .title{
   position: fixed;
   display: inline-block;
-  width: 100%;
+  width: 100%; 
+  z-index: -2;
 }
 
 .part1{
   position: absolute;
   display: inline-block;
   width: 100%;
+	z-index: -2;
 }
 
 .part2{
   position: absolute;
   display: inline-block;
   width: 100%;
+  z-index: -2;
 }
 
 .part3{
   position: absolute;
   display: inline-block;
   width: 100%;
+  z-index: -2;
 
 }
 
@@ -34,8 +80,35 @@
   position: absolute;
   display: inline-block;
   width: 100%;
-
+	z-index: -2;
 }
+
+/*other websites*/
+
+	.leftcolumn {
+	display:inline-block;
+	float: left;
+	width: 20%;
+	margin-top: 160%;	
+	overflow: hidden;
+	margin-left: 18%;	
+	padding-right: 2%;	
+	}
+	
+	.midcolumn {
+	display: inline-block;
+	float: left;
+	width: 20%;
+	margin-top: 160%;	
+	padding-right: 2%;	
+	}
+	.rightcolumn {
+	display: inline-block;
+	float: left;
+	width: 20%;
+	margin-top: 160%;	
+	padding-right: 2%;	
+	}	
 
 
 /*----------------------------------
