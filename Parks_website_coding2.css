@@ -1,47 +1,54 @@
-	h2{
-		font-size: 90px;
-		line-height: 80px;
-		width: 12.667%;
-		margin: 0px 0% 0px 0%;
-	    float: left;
-		padding-right: 20px;
-		}
+	#images mobile{
+	visibility: hidden;
+	}	
+
 
 	h3{
-		font-size: 20px;
-		line-height: 20px;
+		font-size: 50px;
+		line-height: 55px;
 		width: 46;
-		margin: 0% 2% 2% 2%;
+		margin: 0% 2% 5% 0%;
 		}
 
+	p{
+		font-size: 45px;
+		line-height: 50px;
+		width: 46;
+		margin: 0% 2% 5% 0%;	
+}
+
 	.about{
-		background: #FFFDE8;
 		position: absolute;
 		z-index: -1;
 		display: inline-block;
-		width: 50%;	
+		width: 65%;	
 		border-radius: 10%;
-		margin: 120% 6% 0% 22%;
+		margin: 140% 0% 40% -65%;
 		padding: 60px;
 		}
+
+
+#sitetitle{
+		position: absolute;
+		z-index: -1;
+		width: 100% !important;
+		padding: 10%;
+		margin-top: 210%;
+}
 
 	#activity{
 		position: absolute;
 		z-index: -1;
 		width: 100% !important;
 		padding: 10%;
-		margin-top: 140%;
-}
-
-.biking{
-	background: 
+		margin-top: 175%;
 }
 	
 
 /*Images*/
 
 .background{
-  position: fixed;
+  position: absolute;
   display: inline-block;
   width: 100%;
   z-index: -4;
@@ -50,7 +57,7 @@
 .title{
   position: fixed;
   display: inline-block;
-  width: 100%; 
+  width: 60%; 
   z-index: -2;
 }
 
@@ -75,15 +82,30 @@
   z-index: -2;
 }
 
+.part4{
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  z-index: -1;
+}
+
+.popupgoat{
+  position: absolute;
+  display: inline-block;
+  margin-top: 12%;
+  width: 100%;
+  z-index: -1;
+}
+
 /*other websites*/
 
 	.leftcolumn {
 	display:inline-block;
 	float: left;
 	width: 20%;
-	margin-top: 20%;	
+	margin-top: 230%;	
 	overflow: hidden;
-	margin-left: 8%;	
+	margin-left: 20%;
 	padding-right: 2%;	
 	}
 	
@@ -91,14 +113,14 @@
 	display: inline-block;
 	float: left;
 	width: 20%;
-	margin-top: 20%;	
+	margin-top: 230%;	
 	padding-right: 2%;	
 	}
 	.rightcolumn {
 	display: inline-block;
 	float: left;
 	width: 20%;
-	margin-top: 20%;	
+	margin-top: 230%;	
 	padding-right: 2%;	
 	}	
 
@@ -107,10 +129,77 @@
   Medium devices: iPad vertical
 ------------------------------------*/
 
-@media (max-width: 991px) {
+@media (max-width: 1300px) {
 
+#images desktop{
+	visibility: hidden;
 }
 
+#images mobile{
+	visibility: visible;
+}	
+	
+	
+	h3{
+		font-size: 35px;
+		line-height: 40px;
+		width: 90%;
+		margin: 0% 1% 5% 0%;
+		}
+
+	p{
+		font-size: 30px;
+		line-height: 40px;
+		width: 90%;
+		margin: 0% 2% 5% 0%;	
+}
+
+	.about{
+		position: absolute;
+		z-index: -1;
+		display: inline-block;
+		width: 70%;	
+		border-radius: 10%;
+		margin: 130% 0% 40% -65%;
+		padding: 60px;
+		}
+
+	#activity{
+		position: absolute;
+		z-index: -1;
+		width: 100% !important;
+		padding: 10%;
+		margin-top: 180%;
+		}		
+	
+/*other websites*/
+
+	.leftcolumn {
+	display:inline-block;
+	float: left;
+	width: 20%;
+	margin-top: 240%;	
+	overflow: hidden;
+	margin-left: 10%;
+	padding-right: 2%;	
+	}
+	
+	.midcolumn {
+	display: inline-block;
+	float: left;
+	width: 20%;
+	margin-top: 240%;	
+	padding-right: 2%;	
+	}
+	.rightcolumn {
+	display: inline-block;
+	float: left;
+	width: 20%;
+	margin-top: 240%;	
+	padding-right: 2%;	
+	}		
+	
+}
 
 /*----------------------------------
   Small devices: iPhone 6+ and below
@@ -118,6 +207,74 @@
 
 @media (max-width: 767px) {
 
+#images desktop{
+	visibility: hidden;
+}
+
+#images mobile{
+	visibility: visible;
+}	
+	
+	
+	h3{
+		font-size: 20px;
+		line-height: 25px;
+		width: 90;
+		margin: 0% 1% 5% 0%;
+		}
+
+	p{
+		font-size: 15px;
+		line-height: 20px;
+		width: 90;
+		margin: 0% 2% 5% 0%;	
+}
+
+	.about{
+		position: absolute;
+		z-index: -1;
+		display: inline-block;
+		width: 70%;	
+		border-radius: 10%;
+		margin: 125% 0% 40% -75%;
+		padding: 60px;
+		}
+
+	#activity{
+		position: absolute;
+		z-index: -1;
+		width: 70%;
+		padding: 10%;
+		margin-top: 180%;
+		}	
+	
+/*other websites*/
+
+	.leftcolumn {
+	display:inline-block;
+	float: left;
+	width: 20%;
+	margin-top: 235%;	
+	overflow: hidden;
+	margin-left: 20%;
+	padding-right: 2%;	
+	}
+	
+	.midcolumn {
+	display: inline-block;
+	float: left;
+	width: 20%;
+	margin-top: 235%;	
+	padding-right: 2%;	
+	}
+	.rightcolumn {
+	display: inline-block;
+	float: left;
+	width: 20%;
+	margin-top: 235%;	
+	padding-right: 2%;	
+	}		
+	
 }
 
 /*----------------------------------
@@ -126,4 +283,5 @@
 
 @media (max-width: 991px) and (max-height: 736px) and (min-height: 481px) {
 
+	
 }
