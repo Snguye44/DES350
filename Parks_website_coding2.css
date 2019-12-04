@@ -181,9 +181,9 @@
 		position: absolute;
 		z-index: -1;
 		display: inline-block;
-		width: 70%;	
+		width: 100%;	
 		border-radius: 10%;
-		margin: 125% 0% 40% -75%;
+		margin: 123% 0% 40% 8%;
 		padding: 60px;
 		}
 
